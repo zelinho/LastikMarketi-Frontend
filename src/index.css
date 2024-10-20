@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+body {
+  font-family: 'Poppins', 'sans-serif';
+}
+
+.custom-radio input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  outline: none;
+  cursor: pointer;
+  margin-right: 8px;
+  position: relative;
+}
+
+.custom-radio input[type="radio"]:checked {
+  background-color:#2E8856;
+}
+
+.custom-radio input[type="radio"]:checked::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #fff; 
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+df-messenger {
+  --df-messenger-bot-message: rgb(0, 0, 0);
+  --df-messenger-button-titlebar-color: rgb(0, 0, 0);
+  --df-messenger-chat-background-color: rgba(255, 255, 255, 0);
+  --df-messenger-font-color: rgb(255, 255, 255);
+  --df-messenger-send-icon: #878fac;
+  --df-messenger-user-message: rgb(0, 0, 110);
+  z-index: 1002;
+  position: absolute;
+
+}
