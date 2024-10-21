@@ -13,7 +13,6 @@ function Lastikler() {
       try {
         const res = await axios.get("https://lastikmarketi-backend.vercel.app/tire");
         const filteredData = res.data.filter(item => item.id === 1);
-        console.log(filteredData);
         setTire(filteredData);
       }
       catch (error) {
