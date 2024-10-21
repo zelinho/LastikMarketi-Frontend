@@ -19,7 +19,7 @@ function Signup() {
           phonenumber: data.phonenumber,
         };
   
-        const response = await axios.post('http://localhost:4001/user/signup', userInfo);
+        const response = await axios.post('https://lastikmarketi-backend.vercel.app/user/signup', userInfo);
         const { token, user } = response.data;
   
         // Token ve kullanıcı bilgilerini localStorage'a sakla

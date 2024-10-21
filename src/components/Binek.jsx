@@ -7,7 +7,7 @@ function Binek() {
   useEffect(() => {
     const getTire = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/tire");
+        const res = await axios.get("https://lastikmarketi-backend.vercel.app/tire");
         const filteredData = res.data.filter(item => item.category === "binek");
         console.log(filteredData);
         setTire(filteredData);

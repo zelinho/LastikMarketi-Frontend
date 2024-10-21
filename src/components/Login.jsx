@@ -21,7 +21,7 @@ function Login() {
         email: data.email,
         password: data.password,
       };
-      const response = await axios.post('http://localhost:4001/user/login', userInfo);
+      const response = await axios.post('https://lastikmarketi-backend.vercel.app/user/login', userInfo);
       const { token, user } = response.data;
 
       localStorage.setItem('token', token);

@@ -18,7 +18,7 @@ function Profile() {
 
   const fetchUserData = async () => {
     try {
-      const response = await axios.get('http://localhost:4001/user/profile', {
+      const response = await axios.get('https://lastikmarketi-backend.vercel.app/user/profile', {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`,
         },

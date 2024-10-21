@@ -11,7 +11,7 @@ function Lastikler() {
   useEffect(() => {
     const getTire = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/tire");
+        const res = await axios.get("https://lastikmarketi-backend.vercel.app/tire");
         const filteredData = res.data.filter(item => item.id === 1);
         console.log(filteredData);
         setTire(filteredData);
