@@ -79,7 +79,7 @@ function Header() {
             <div className="bg-white shadow-md rounded-sm p-6 text-center">
               <h3 className="text-lg font-semibold mb-2">4 Al 3 Öde Kampanyası</h3>
               <p className="text-gray-600">Lassa ve Bridgestone Lastiklerde <br /> 4 al 3 öde & Ücretsiz Montaj!</p>
-              <img src="public/image/header1.png" alt="4 Al 3 Öde" className="mt-4 h-80 w-full object-cover rounded-sm" />
+              <img src="/image/header1.png" alt="4 Al 3 Öde" className="mt-4 h-80 w-full object-cover rounded-sm" />
               <a href="#" className="mt-4 block bg-green-600 text-white py-2 rounded">Detaylı Bilgi</a>
             </div>
           </a>
@@ -88,7 +88,7 @@ function Header() {
             <a href="">
               <h3 className="text-lg font-semibold mb-2">Ücretsiz Kapıda Montaj</h3>
               <p className="text-gray-600">Mobil araç ile evinizin önünde <br /> değişim fırsatı</p>
-              <img src="public/image/header2.jpg" alt="Kapıda Montaj" className="mt-4 h-80 w-full object-cover rounded-sm" />
+              <img src="/image/header2.jpg" alt="Kapıda Montaj" className="mt-4 h-80 w-full object-cover rounded-sm" />
               <a href="#" className="mt-4 block bg-green-600 text-white py-2 rounded">Detaylı Bilgi</a>
             </a>
           </div>
@@ -97,7 +97,7 @@ function Header() {
             <a href="">
               <h3 className="text-lg font-semibold mb-2">Ücretsiz Kargo</h3>
               <p className="text-gray-600">Türkiye’nin her yerine kargo ücretsiz <br /><br /></p>
-              <img src="public/image/header3.jpg" alt="Ücretsiz Kargo" className="mt-4 h-80 w-full object-cover rounded-sm" />
+              <img src="/image/header3.jpg" alt="Ücretsiz Kargo" className="mt-4 h-80 w-full object-cover rounded-sm" />
               <a href="#" className="mt-4 block bg-green-600 text-white py-2 rounded">Detaylı Bilgi</a>
             </a>
           </div>
@@ -106,7 +106,7 @@ function Header() {
             <a href="">
               <h3 className="text-lg font-semibold mb-2">Ücretsiz Bayide Montaj</h3>
               <p className="text-gray-600">Türkiye geneli ücretsiz montaj fırsatı <br /><br /></p>
-              <img src="public/image/header4.jpg" alt="Bayide Montaj" className="mt-4 h-80 w-full object-cover rounded-sm" />
+              <img src="/image/header4.jpg" alt="Bayide Montaj" className="mt-4 h-80 w-full object-cover rounded-sm" />
               <a href="#" className="mt-4 block bg-green-600 text-white py-2 rounded">Detaylı Bilgi</a>
             </a>
           </div>
