@@ -4,7 +4,7 @@ function Banner() {
     return (
         <>
             <div style={{
-                backgroundImage: "url('home-slide.png')",
+                backgroundImage: "url('image/home-slide.png')",
                 backgroundSize: 'cover', 
                 backgroundPosition: 'center' 
             }}>
