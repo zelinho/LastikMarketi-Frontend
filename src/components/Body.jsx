@@ -3,22 +3,22 @@ import React from 'react'
 const categories = [
     {
         title: 'Hafif ticari araçlar için lastikler',
-        image: 'public/image/staticPage4.png', 
+        image: '/image/staticPage4.png', 
         url: '/Ticari'
     },
     {
         title: '4x4 araçlar için lastikler',
-        image: 'public/image/staticPage2.png', 
+        image: '/image/staticPage2.png', 
         url: '/Dortxdort'
     },
     {
         title: 'Binek araçlar için lastikler',
-        image: 'public/image/staticPage1.png', 
+        image: '/image/staticPage1.png', 
         url: '/Binek'
     },
     {
         title: 'Performans araçları için lastikler',
-        image: 'public/image/staticPage3.png', 
+        image: '/image/staticPage3.png', 
         url: '/Rft'
     },
 ];
