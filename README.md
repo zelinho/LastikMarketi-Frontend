@@ -13,3 +13,15 @@
 ## Giriş Yap
 
 ![GirişYap](./Resimler/GirişYap.PNG)
+
+## Üye Ol
+
+![ÜyeOl](./Resimler/ÜyeOl.PNG)
+
+## Lastik Hakkında
+
+![LastikHakkında](./Resimler/Lastik_Hakkında.PNG)
+
+## Lastik Türleri
+
+![LastikTürleri](./Resimler/Lastik_Türleri.PNG)
