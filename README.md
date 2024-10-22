@@ -3,4 +3,6 @@
  Projede MERN mimarisi kullanılmıştır.
  Kullanıcı ve lastik bilgileri MongoDB Atlas veritabanında tutulmaktadır.
 
-# Anasayfa
+## Anasayfa
+
+![Anasayfa](./Resimler/Anasayfa.PNG)
