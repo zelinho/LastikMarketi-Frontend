@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Card from './Card';
 import axios from "axios";
+import { BASE_URL } from '../constants/constants';
 
 
 function Ticari() {
@@ -8,7 +9,7 @@ function Ticari() {
   useEffect(() => {
     const getTire = async () => {
       try {
-        const res = await axios.get("https://lastikmarketi-backend.vercel.app/tire");
+        const res = await axios.get(`${BASE_URL}/tire`);
         const filteredData = res.data.filter(item => item.category === "Ticari");
         console.log(filteredData);
         setTire(filteredData);

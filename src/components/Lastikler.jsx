@@ -5,15 +5,15 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import axios from "axios";
 import Card from './Card';
+import { BASE_URL } from '../constants/constants';
 
 function Lastikler() {
   const [tire, setTire] = useState([])
   useEffect(() => {
     const getTire = async () => {
       try {
-        const res = await axios.get("https://lastikmarketi-backend.vercel.app/tire");
+        const res = await axios.get(`${BASE_URL}/tire`);
         const filteredData = res.data.filter(item => item.id === 1);
-        console.log(filteredData);
         setTire(filteredData);
       }
       catch (error) {
@@ -32,7 +32,7 @@ function Lastikler() {
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint:1050,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -41,7 +41,7 @@ function Lastikler() {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 800,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

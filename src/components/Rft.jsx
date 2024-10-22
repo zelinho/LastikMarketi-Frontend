@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import Card from './Card';
 import axios from "axios";
+import { BASE_URL } from '../constants/constants';
 
 function Rft() {
   const [tire, setTire] = useState([])
   useEffect(() => {
     const getTire = async () => {
       try {
-        const res = await axios.get("https://lastikmarketi-backend.vercel.app/tire");
+        const res = await axios.get(`${BASE_URL}/tire`);
         const filteredData = res.data.filter(item => item.category === "RFT");
         console.log(filteredData);
         setTire(filteredData);

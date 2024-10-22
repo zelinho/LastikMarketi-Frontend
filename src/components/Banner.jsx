@@ -4,15 +4,13 @@ function Banner() {
     return (
         <>
             <div style={{
-                backgroundImage: "url('/image/home-slide.png')",
+                backgroundImage: "url('image/home-slide.png')",
                 backgroundSize: 'cover', 
                 backgroundPosition: 'center' 
             }}>
                 <div className="max-w-screen-2x-1 container mx-auto md:px-20 px-4 flex flex-col md:flex-row mt-20">
                     <div className="w-4/5 bg-customGreen mt-12 ml-16 mr-10 " style={{ borderRadius: 4, position: 'relative', padding: 24 }}>
-                        <p className='text-xl text-white '>
-                            <h1 >Aracınız için en uygun lastiği bulun</h1>
-                        </p>
+                        <h1 className='text-xl text-white '>Aracınız için en uygun lastiği bulun</h1>
                         <form className="mt-5">
                             <div className="mb-4">
                                 <div className="flex items-center">
@@ -36,7 +34,7 @@ function Banner() {
                                 </label>
                                 <div className="relative">
                                     <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                                        <option value="" disabled selected >Seçiniz</option>
+                                        <option  value="" selected >Seçiniz</option>
                                         <option>ASTON MARTIN</option>
                                         <option>AUDI</option>
                                         <option>BMW</option>
@@ -61,7 +59,7 @@ function Banner() {
                                 </label>
                                 <div className="relative">
                                     <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                                        <option value="" disabled selected>Seçiniz</option>
+                                        <option value="" selected>Seçiniz</option>
                                         <option>A</option>
                                         <option>B</option>
                                         <option>C</option>
@@ -83,7 +81,7 @@ function Banner() {
                                 </label>
                                 <div className="relative">
                                     <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                                        <option value="" disabled selected>Seçiniz</option>
+                                        <option value=""  selected>Seçiniz</option>
                                         <option>2001</option>
                                         <option>2003</option>
                                         <option>2005</option>
@@ -110,7 +108,7 @@ function Banner() {
                                 </label>
                                 <div className="relative">
                                     <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                                        <option value="" disabled selected>Seçiniz</option>
+                                        <option value=""  selected>Seçiniz</option>
                                         <option>A</option>
                                         <option>B</option>
                                         <option>C</option>
@@ -128,7 +126,7 @@ function Banner() {
                                 </label>
                                 <div className="relative">
                                     <select className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
-                                        <option value="" disabled selected>Seçiniz</option>
+                                        <option value=""  selected>Seçiniz</option>
                                         <option>A</option>
                                         <option>B</option>
                                         <option>C</option>
