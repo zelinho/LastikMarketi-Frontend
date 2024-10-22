@@ -20,8 +20,8 @@
 
 ## Lastik Hakkında
 
-![LastikHakkında](./Resimler/Lastik Hakkında.PNG)
+![LastikHakkında](./Resimler/LastikHakkında.PNG)
 
 ## Lastik Türleri
 
-![LastikTürleri](./Resimler/Lastik_Türleri.PNG)
+![LastikTürleri](./Resimler/LastikTürleri.PNG)
