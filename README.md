@@ -1,6 +1,6 @@
 # Lastik Marketi
 - Lastik.com.tr klon websitesi olarak geliştirilmiştir.
-- Projede MERN mimarisi kullanılmıştır.
+- Projede MERN yığını kullanılmıştır.
 - Kullanıcı ve lastik bilgileri MongoDB Atlas veritabanında tutulmaktadır.
 - Chatbot Dialogflow kullanılarak üretilmiştir.
 - Chatbotun cevap verebileceği tüm soruları öğrenmek için "neler biliyorsun" sorusunu sorabilirsiniz.
