@@ -1,19 +1,19 @@
 import React from 'react'
 const categories = [
     {
-        image: 'https://medias89k.azureedge.net/sys-master-hybris-image-prod/banners/lastikcom-boyutlar_660x466px-09.jpg', 
+        image: 'https://medias89k-ete3a4c6hxdufvhh.a03.azurefd.net/sys-master-hybris-image-prod/banners/lastikcom-boyutlar_660x466px-09.jpg', 
         url: 'https://www.youtube.com/watch?v=nhpetDd_0s0'
     },
     {
-        image: 'https://medias89k.azureedge.net/sys-master-hybris-image-prod/banners/lastikcom-boyutlar_660x466px-12.jpg', 
+        image: 'https://medias89k-ete3a4c6hxdufvhh.a03.azurefd.net/sys-master-hybris-image-prod/banners/lastikcom-boyutlar_660x466px-12.jpg', 
         url: 'https://www.youtube.com/watch?v=y5dHfSO-fxs'
     },
     {
-        image: 'https://medias89k.azureedge.net/sys-master-hybris-image-prod/banners/lastikcom-boyutlar_660x466px-10.jpg', 
+        image: 'https://medias89k-ete3a4c6hxdufvhh.a03.azurefd.net/sys-master-hybris-image-prod/banners/lastikcom-boyutlar_660x466px-10.jpg', 
         url: 'https://www.youtube.com/watch?v=gmcxpFeoeK8'
     },
     {
-        image: 'https://medias89k.azureedge.net/sys-master-hybris-image-prod/banners/lastikcom-boyutlar_660x466px-11.jpg', 
+        image: 'https://medias89k-ete3a4c6hxdufvhh.a03.azurefd.net/sys-master-hybris-image-prod/banners/lastikcom-boyutlar_660x466px-11.jpg', 
         url: 'https://www.youtube.com/watch?v=7FvGlk7x-BM'
     },
 ];
